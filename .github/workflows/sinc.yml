@@ -26,4 +26,4 @@ jobs:
           TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
           LETTERBOXD_USERNAME: ${{ secrets.LETTERBOXD_USERNAME }}
           TRAKT_USERNAME: ${{ secrets.TRAKT_USERNAME }}
-        run: python letterboxd_trakt/main.py
+        run: python -m letterboxd_trakt.main
